@@ -1,21 +1,32 @@
-MIT License
+Business Source License 1.1
 
-Copyright (c) 2025 Charlie
+Copyright (c) 2025 YangChangJi
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, provided that the above copyright notice and this permission notice appear in all copies, and that the name of YangChangJi not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### Terms and Conditions
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. **Definitions**
+   - "First Publication Date" means 2025-08-24 (the date when the Original Work was first made available to the public).
+   - "Original Work" means the software and documentation as first released by YangChangJi under this License.
+   - "Modified Work" means any work derived from the Original Work, including modifications, enhancements, or derivative works.
+   - "Commercial Use" means any use of the Original Work or Modified Work in a manner that is intended for or directed toward commercial advantage or monetary compensation, including but not limited to:
+     a) Providing the software as a service (SaaS) to third parties for a fee;
+     b) Distributing the software or Modified Work for a fee;
+     c) Using the software or Modified Work in a commercial product or service that generates revenue.
+   - "Change Date" means 2029-08-24 (four years from the date of first publication of the Original Work).
+
+2. **Rights and Limitations**
+   - Non-Commercial Use: You are granted a worldwide, royalty-free license to use, copy, modify, and distribute the Original Work and Modified Work for Non-Commercial Use, provided that all copies include this License and copyright notice.
+   - Commercial Use: Commercial Use of the Original Work or Modified Work is prohibited unless you have obtained a separate commercial license from YangChangJi. To request a commercial license, contact mailycj@163.com.
+   - Distribution: You may distribute Modified Works only under the terms of this License, and must include all original copyright and license notices.You must clearly mark Modified Works as such, and include a notice stating that the work is derived from the Original Work by YangChangJi.
+
+3. **Conversion to Open Source**
+   - On and after the Change Date, this software is automatically licensed under the Apache License 2.0, and all restrictions on Commercial Use shall be removed.
+
+4. **Disclaimer of Warranty**
+   - THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+5. **Termination**
+   - This License is automatically terminated if you breach any of its terms. Upon termination, you must cease all use, copying, modification, and distribution of the software.
+    
