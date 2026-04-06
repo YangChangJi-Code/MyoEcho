@@ -1,8 +1,8 @@
-# MyoEcho: AI-based Screening and Diagnosis of Cardiomyopathies from Echocardiograms
+# MyoEcho: AI-based Diagnosis of Cardiomyopathies from Echocardiograms
 
 This repository contains the official inference code for the following paper:
 
-**MyoEcho: AI-based Screening and Diagnosis of Cardiomyopathies from Echocardiograms**  
+**Artificial intelligence-based Diagnosis of Cardiomyopathies from Echocardiograms**  
 
 ![EchoPrime Demo](assets/network.png)
 
