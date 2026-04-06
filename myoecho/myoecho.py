@@ -2,25 +2,6 @@ import torch
 import torchvision
 
 
-class SingleViewScreeningHead(torch.torch.nn.Module):
-    def __init__(self):
-        super().__init__()
-        self.fc = torch.nn.Sequential(
-            torch.nn.BatchNorm1d(512),
-            torch.nn.Dropout(0.4),
-            torch.nn.Sigmoid(),
-            torch.nn.Linear(512, 128),
-            torch.nn.BatchNorm1d(128),
-            torch.nn.Sigmoid(),
-            torch.nn.Linear(128, 1),
-            torch.nn.Sigmoid(),
-        )
-
-    def forward(self, x: torch.Tensor):
-        x = self.fc(x)
-        return x
-
-
 class SingleViewDiagnosisHead(torch.torch.nn.Module):
     def __init__(self):
         super().__init__()
@@ -76,34 +57,6 @@ class MultiViewDiagnosisHead(torch.torch.nn.Module):
         x = x.squeeze()
         x = self.fc(x)
         return x
-
-
-class SingleViewScreening:
-
-    def __init__(self, device, model_weight):
-        self.device: str = device
-        # 加载编码器
-        self.encoder: torch.nn.Module = torchvision.models.video.mvit_v2_s()
-        self.encoder.head[-1] = torch.nn.Linear(
-            self.encoder.head[-1].in_features, 512)
-        checkpoint = torch.load(r"model_data/Encoder.pt",
-                                map_location="cpu", weights_only=False)
-        self.encoder.load_state_dict(checkpoint)
-        self.encoder.eval()
-        self.encoder.to(device)
-
-        self.decoder = SingleViewScreeningHead()
-        weight_data = torch.load(
-            model_weight, map_location='cpu', weights_only=False)
-        self.decoder.load_state_dict(weight_data["model"])
-        self.decoder.to(self.device)
-        self.decoder.eval()
-
-    @torch.no_grad()
-    def __call__(self, x):
-        feature = self.encoder(x.to(self.device))
-        predict = self.decoder(feature)
-        return predict
 
 
 class SingleViewDiagnosis:

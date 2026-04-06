@@ -1,1 +1,1 @@
-from .myoecho import SingleViewScreening, SingleViewDiagnosis, MultileViewDiagnosis
+from .myoecho import SingleViewDiagnosis, MultileViewDiagnosis
